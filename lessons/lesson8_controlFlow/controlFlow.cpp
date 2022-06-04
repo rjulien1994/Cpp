@@ -24,7 +24,12 @@ int main(){
         cout << "You are too young to use this program";
     }
     else {
-        cout << "SOOOO MANY BIRTHDAYS";
+        cout << "S";
+        while(num > 0){
+            cout << "O";
+            num--;
+        }
+        cout << " MANY BIRTHDAYS " << name;
     }
 
     return 0;
